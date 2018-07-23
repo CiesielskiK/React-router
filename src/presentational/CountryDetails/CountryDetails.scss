@@ -1,0 +1,76 @@
+.countryWrapper {
+  border-radius: 10px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.10), 0 10px 10px rgba(0,0,0,0.13);
+  height: 400px;
+  margin: 20px auto;
+  width: 300px;
+
+  header {
+    background: #003e9f;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 30%;
+    position: relative;
+    width: 100%;
+  }
+}
+
+.countryPhoto {
+  border: 10px solid #003e9f;
+  border-radius: 50%;
+  bottom: -50px;
+  height: 115px;
+  left: 0;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  width: 115px;
+}
+
+.countryInfo {
+  font-family: 'Roboto Condesed';
+  padding: 55px 5px 65px;
+
+
+  h1 {
+    color: #323232;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    text-align: center
+  }
+
+  h2 {
+    color: #5f5f5f;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    text-align: center;
+  }
+}
+
+.info {
+  display: flex;
+  justify-content: space-around;
+
+  div {
+    text-align: center;
+    width: 33%;
+
+    span {
+      display: block;
+      &:nth-of-type(1) {
+        color: #323232;
+        font-size: 24px;
+        font-weight: bold;
+      }
+      &:nth-of-type(2) {
+        color: #5f5f5f;
+        font-size: 12px;
+        letter-spacing: .5px;
+        padding: 6px 0;
+        text-transform: uppercase;
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+.countriesList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.removeButton {
+  font-size: 26px;
+}
+
+.singleCountry {
+  height: 350px;
+  width: 26%;
+  text-align: center;
+}
+
+.countryName {
+  text-decoration: none;
+  text-align: center;
+  margin-top: 25px;
+}
